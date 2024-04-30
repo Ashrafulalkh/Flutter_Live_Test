@@ -41,7 +41,7 @@ class _ProfileState extends State<Profile> {
         child: Column(
           children: [
             Padding(
-              padding: EdgeInsets.fromLTRB(0, 25, 0, 10),
+              padding: EdgeInsets.fromLTRB(0, 30, 0, 10),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [

@@ -96,6 +96,10 @@ class _ProfileState extends State<Profile> {
                         'Integer pharetra at enim non vulputate. In hac habitasse platea dictumst. Phasellus vitae rutrum mi.Quisque erat leo, scelerisque a libero ut, tincidunt convallis ligula. Nam in dui dictum, pulvinar erat a, semper risus.',
 
                     textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.w600,
+                      ),
                     ),
                   ),
                 ],

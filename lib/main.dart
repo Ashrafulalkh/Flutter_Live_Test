@@ -84,15 +84,19 @@ class _ProfileState extends State<Profile> {
               ],
             ),
             Padding(
-              padding:EdgeInsets.fromLTRB(30, 15, 30, 0) ,
+              padding:EdgeInsets.fromLTRB(25, 15, 25, 0) ,
               child: Wrap(
                 alignment: WrapAlignment.center,
                 crossAxisAlignment: WrapCrossAlignment.center,
                 spacing: 10,
                 children: [
-                  Text('Vestibulum dapibus ipsum id lorem porta condimentum. Nam scelerisque vestibulum orci, at pharetra nulla. In aliquet vel orci a vestibulum. Duis vel quam non orci dignissim venenatis ut non enim. Ut ultricies vel sapien sit amet congue. Mauris vitae elit in lacus rutrum eleifend id non elit. Fusce in elit cursus ex vestibulum euismod. Class aptent taciti sociosqu ad litora torquent per conubia nostra, eu tincidunt quam tristique tempor. '
-        
-                    'Integer pharetra at enim non vulputate. In hac habitasse platea dictumst. Phasellus vitae rutrum mi.Quisque erat leo, scelerisque a libero ut, tincidunt convallis ligula. Nam in dui dictum, pulvinar erat a, semper risus.',
+                  Center(
+                    child: Text('Vestibulum dapibus ipsum id lorem porta condimentum. Nam scelerisque vestibulum orci, at pharetra nulla. In aliquet vel orci a vestibulum. Duis vel quam non orci dignissim venenatis ut non enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, eu tincidunt quam tristique tempor. '
+                            
+                        'Integer pharetra at enim non vulputate. In hac habitasse platea dictumst. Phasellus vitae rutrum mi.Quisque erat leo, scelerisque a libero ut, tincidunt convallis ligula. Nam in dui dictum, pulvinar erat a, semper risus.',
+
+                    textAlign: TextAlign.center,
+                    ),
                   ),
                 ],
               ),

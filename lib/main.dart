@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Profile(),
     );
   }
@@ -40,13 +41,13 @@ class _ProfileState extends State<Profile> {
         child: Column(
           children: [
             Padding(
-              padding: EdgeInsets.fromLTRB(0, 25, 0, 5),
+              padding: EdgeInsets.fromLTRB(0, 25, 0, 10),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   CircleAvatar(
-                    radius: 85, // Adjust the radius as needed
-                     // Background color of the outer circle
+                    radius: 81, // Adjust the radius as needed
+                     backgroundColor: Colors.grey,// Background color of the outer circle
                     child: CircleAvatar(
                       radius: 80, // Adjust the radius as needed
                       backgroundImage: AssetImage('images/ashraful.jpg'), // Path to your profile picture

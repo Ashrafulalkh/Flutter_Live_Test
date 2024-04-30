@@ -84,7 +84,7 @@ class _ProfileState extends State<Profile> {
               ],
             ),
             Padding(
-              padding:EdgeInsets.fromLTRB(25, 15, 25, 0) ,
+              padding:EdgeInsets.fromLTRB(20, 15, 20, 0) ,
               child: Wrap(
                 alignment: WrapAlignment.center,
                 crossAxisAlignment: WrapCrossAlignment.center,
